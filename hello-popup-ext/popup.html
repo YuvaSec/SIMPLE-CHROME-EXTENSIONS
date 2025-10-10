@@ -6,13 +6,24 @@
     <link rel="stylesheet" href="popup.css">
 </head>
     <body>
-        <div class="wrap">
-            <h1>Change Page Color</h1>
-            <p>Click the button to recolor the entire tab.</p>
-            <p class="btn">
-                <button id="change-color">Make it Pretty 🌈</button>
-            </p>
+    <div class="wrap">
+        <h1><!-- TS: popup title -->Change Page Color</h1>
+
+        <div class="row r1">
+            <label for="favColor"><!-- TS: label for color picker -->Favorite:</label>
+            <input id="favColor" type="color" value="#ffe9a8" />
+            <button id="save"><!-- TS: saves color to chrome.storage -->Save</button>
         </div>
+
+        <div class="row r2">
+            <button id="apply"><!-- TS: applies saved color to active tab -->Apply to page</button>
+            <button id="random"><!-- TS: generates a random soft color -->Random 🌈</button>
+        </div>
+
+        <small><!-- TS: helper text -->
+            Tip: Click “Save” once. Next time, just hit “Apply”.
+        </small>
+    </div>
         <script src="popup.js"></script>
     </body>
 </html>
