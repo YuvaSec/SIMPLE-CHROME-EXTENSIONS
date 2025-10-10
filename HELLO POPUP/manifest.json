@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Hello Popup",
+  "version": "1.0.0",
+  "description": "Lesson 1: minimal popup (no JS)",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Hello Popup"
+  }
+}
