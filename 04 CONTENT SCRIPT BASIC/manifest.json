@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Hello Webpage",
+  "version": "1.0.0",
+  "description": "Lesson 4: basic content script that interacts with pages.",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
