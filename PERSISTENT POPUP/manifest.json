@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Popup Storage",
+  "version": "1.0.0",
+  "description": "Lesson 3: save data in chrome.storage",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Persistent Popup"
+  }
+}
+
+
