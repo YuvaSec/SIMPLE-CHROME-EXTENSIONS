@@ -20,4 +20,4 @@ document.body.appendChild(banner);
 // Remove after 3 seconds.
 setTimeout(() => {
     banner.remove();
-},10000);
+},5000);

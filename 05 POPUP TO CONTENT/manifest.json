@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Popup to Content Messaging",
+  "version": "1.1.0",
+  "description": "Lesson 5: message passing between popup and content script.",
+  "permissions": ["tabs","scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Send Message"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
