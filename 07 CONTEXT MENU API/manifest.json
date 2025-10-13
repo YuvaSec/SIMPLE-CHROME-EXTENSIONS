@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Context Menu",
+  "version": "1.0.0",
+  "description": "Lesson 7: add a custom right-click menu item",
+  "permissions": ["contextMenus", "scripting", "tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Context Menu"
+  }
+}
