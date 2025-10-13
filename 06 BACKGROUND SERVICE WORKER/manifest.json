@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Background Service Worker Demo",
+  "version": "1.0.0",
+  "description": "Lesson 6: Runs code automatically when new tabs are created.",
+  "permissions": ["tabs"],
+
+  "action": {
+    "default_title": "Background Worker"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
