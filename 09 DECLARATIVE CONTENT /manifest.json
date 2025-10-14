@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Declarative Content",
+  "version": "1.0.0",
+  "description": "Shows icon only on certain url",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Active on given website url"
+  }
+}
