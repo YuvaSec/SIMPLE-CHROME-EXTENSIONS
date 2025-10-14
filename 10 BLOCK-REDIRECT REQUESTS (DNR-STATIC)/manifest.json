@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "DNR Static Demo",
+  "version": "1.0.0",
+  "description": "Lesson 10: block and redirect requests with static rules.",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "rules_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "action": { "default_title": "DNR Static" },
+  "web_accessible_resources": [
+    {
+      "resources": ["empty.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

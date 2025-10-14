@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "https://www.tiktok.com/",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "tiktok.com",
+      "resourceTypes": [
+        "sub_frame",
+        "script",
+        "image",
+        "stylesheet",
+        "xmlhttprequest",
+        "object",
+        "media",
+        "font",
+        "websocket",
+        "csp_report",
+        "ping",
+        "other"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://www.youtube.com/feed/playlists"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://www.instagram.com/",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/empty.js" }
+    },
+    "condition": {
+      "urlFilter": "https://htmlcheatsheet.com",
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {"type": "allow"},
+    "condition": {
+      "urlFilter": "https://uizard.io/",
+      "resourceTypes": ["script", "image","xmlhttprequest"]
+    }
+  }
+]
