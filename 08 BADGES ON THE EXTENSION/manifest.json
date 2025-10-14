@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Badge Tabs Counter",
+  "version": "1.0.0",
+  "description": "Lesson 8: badge shows how many tabs are open in the current window.",
+  "action": {
+    "default_title": "Tabs in this window"
+  },
+  "permissions": ["tabs","activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
