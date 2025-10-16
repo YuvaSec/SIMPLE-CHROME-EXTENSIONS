@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Image Search Tool",
+  "version": "1.0.0",
+  "description": "Lesson 14: right-click any image to reverse-search it.",
+  "permissions": ["contextMenus","tabs"],
+  "action": {
+    "default_title": "Image Search Tool"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
