@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name":"DNR DYNAMIC DEMO",
+  "version": "1.0.0",
+  "description": "Lesson 10: Add/Remove DNR rules at runtime",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Toggle Blocker",
+    "default_popup": "popup.html"
+  }
+}
+
