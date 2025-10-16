@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Omnibox",
+  "version": "1.0.0",
+  "description" : "Lesson 13: Trigger extension actions from Chrome's address bar.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Omnibox"
+  },
+  "omnibox": {
+    "keyword": "omi"
+  }
+}
