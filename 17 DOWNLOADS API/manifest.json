@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Download API",
+  "version": "1.0.0",
+  "description": "Lesson 17: Use Chrome.downloads to save files programmatically.",
+  "action":{
+    "default_title": "Download API",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["downloads"]
+}
