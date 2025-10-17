@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Offscreen Demo",
+  "version": "1.0.0",
+  "description": "Lesson 17: use an offscreen document for clipboard or rendering tasks.",
+  "permissions": ["offscreen", "scripting", "tabs","clipboardWrite"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Offscreen Clipboard Demo"
+  }
+}
