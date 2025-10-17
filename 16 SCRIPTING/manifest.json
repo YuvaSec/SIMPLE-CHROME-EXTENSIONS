@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Scripting API",
+  "version": "1.0.0",
+  "description": "Lesson 16: Inject JS and CSS into pages dynamically.",
+  "permissions": ["scripting","tabs","activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Scripting"
+  },
+  "host_permissions": ["<all_urls>"]
+}
