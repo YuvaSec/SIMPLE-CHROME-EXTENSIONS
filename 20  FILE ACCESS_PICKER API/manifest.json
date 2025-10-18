@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "File Access",
+  "version": "1.0.0",
+  "description": "Lesson 20: Read and Save Files with the File picker API.",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "File Access"
+  }
+}
