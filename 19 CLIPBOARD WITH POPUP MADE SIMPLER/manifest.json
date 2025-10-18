@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Clipboard Simple",
+  "version": "1.0.0",
+  "description": "Lesson 17 (simple): copy from popup or page selection",
+  "permissions": ["scripting", "activeTab", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Clipboard Simple"
+  }
+}
