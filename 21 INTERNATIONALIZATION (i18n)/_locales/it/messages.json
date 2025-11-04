@@ -1,0 +1,7 @@
+{
+  "extName":        { "message": "Ciao Estensione" },
+  "extDescription": { "message": "Lezione 19: traduzioni con i18n" },
+  "popupTitle":     { "message": "Demo di Saluto" },
+  "helloText":      { "message": "Ciao!" },
+  "goodbyeText":    { "message": "Arrivederci!" }
+}

@@ -3,7 +3,7 @@ const msg = $("msg");
 const textArea = $("output");
 
 
-//1. Open and read a local text file.  using FILE SYSTEM ACCESS API
+//1. Open and read a local text file.  Using FILE SYSTEM ACCESS API
 $("open-file").addEventListener("click", async () => {
     try{
         //“Only show files that are plain text (text/plain) and end with .txt.”
@@ -21,7 +21,7 @@ $("open-file").addEventListener("click", async () => {
     }
 });
 
-//2. Save the textarea Content as new file.
+//2. Save the textarea Content as a new file.
 $("save-file").addEventListener("click" , async () =>{
     try{
         if(!textArea.value) {

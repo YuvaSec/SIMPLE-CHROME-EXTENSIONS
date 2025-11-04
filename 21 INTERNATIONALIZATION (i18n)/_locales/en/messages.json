@@ -1,0 +1,7 @@
+{
+  "extName":        { "message": "Hello Extension" },
+  "extDescription": { "message": "Lesson 19: translations with i18n" },
+  "popupTitle":     { "message": "Greeting Demo" },
+  "helloText":      { "message": "Hello!" },
+  "goodbyeText":    { "message": "Goodbye!" }
+}
